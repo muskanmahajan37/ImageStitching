@@ -10,10 +10,10 @@ Getting the app to run is pretty easy, just follow the script below! This script
 # Clone the repo
 git clone https://github.com/waterupto/ImageStitching
 
-# install deps
+# Install deps
 make install
 
-# Run the algorithm!
+# Run the algorithm
 python video_stitching.py <path to video file> --display --save
 python image_stitching.py <path to image directory> --display --save
 ```
